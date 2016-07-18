@@ -1,0 +1,74 @@
+body {
+	background-image: url("https://images.unsplash.com/photo-1427446473782-c2024dadf6a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80");
+}
+
+.buttons {
+		margin-top: 2%;
+		font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	    margin-left:300px;
+		margin-bottom:0.5%;
+		font-weight: bolder;
+}
+
+
+
+.myname {
+	font-family: "Brush Script MT", cursive;
+    color: #795d35; 
+    text-shadow: 3px 3px 3px white, 2px 2px 0px rgba(0,0,0,0.90);
+    font-size: 150px;
+    opacity: 1.0;
+    top:100px;
+
+}
+
+.home, .container {
+	margin-top: 1%;
+	margin-right: 30px;
+	opacity: 0.8;
+	width: 900px;
+	height: 220px;
+	border-radius: 200px;
+	background-image: url("https://images.unsplash.com/photo-1428447446564-008f0a600312?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80");
+}
+
+.homephoto {
+	height:350px;
+	width:350px;
+	border-radius: 185px;
+	opacity: 0.9;
+	margin-left: 5%;
+	margin-top: -200px;
+
+}
+
+.quote {
+	text-align: center;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size:30px;
+	color: black;
+	background-color: gray; 
+	border-radius: 20px;
+    text-shadow: 2px 2px 2px white, 2px 2px 0px rgba(0,0,0,0.90);
+	width:800px;
+	height:450px;
+	float: right;
+	margin-top: 1%;
+	margin-right: 5.25%;
+	margin-bottom:3%;
+	opacity: 0.7;
+}
+.moveright {
+	text-align: center;
+}
+
+.whitehot {
+	font-size:35px;
+	font-weight: bolder;
+}
+
+.linkedinbutton {
+	margin-top:0.5%;
+	margin-left:14%;
+	
+}

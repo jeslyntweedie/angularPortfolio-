@@ -2,13 +2,16 @@ body {
 	background-image: url("https://images.unsplash.com/photo-1427446473782-c2024dadf6a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80");
 }
 
+
 /*.buttons {
+
 		margin-top: 2%;
 		font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	    margin-left:300px;
 		margin-bottom:0.5%;
 		font-weight: bolder;
 }
+
 */
 
 .buttons {
@@ -22,6 +25,8 @@ nav {
 .lefttitle {
 	margin-left: 10px;
 }
+
+
 .myname {
 	font-family: "Brush Script MT", cursive;
     color: #795d35; 
@@ -71,11 +76,13 @@ nav {
 	opacity: 0.8;
 	line-height: 30px;
 }
+
 .moveright {
 	text-align: center;
 }
 
 .whitehot {
+
 	font-size:40px;
 	font-weight: bolder;
 }
@@ -133,3 +140,9 @@ nav {
 		text-align:center;
 	}
 }
+
+	margin-top:0.5%;
+	margin-left:14%;
+	
+}
+

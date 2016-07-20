@@ -1,0 +1,135 @@
+body {
+	background-image: url("https://images.unsplash.com/photo-1427446473782-c2024dadf6a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80");
+}
+
+/*.buttons {
+		margin-top: 2%;
+		font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	    margin-left:300px;
+		margin-bottom:0.5%;
+		font-weight: bolder;
+}
+*/
+
+.buttons {
+	margin-right:10px;
+}
+
+nav {
+	opacity:0.7;
+}
+
+.lefttitle {
+	margin-left: 10px;
+}
+.myname {
+	font-family: "Brush Script MT", cursive;
+    color: #795d35; 
+    text-shadow: 3px 3px 3px white, 2px 2px 0px rgba(0,0,0,0.90);
+    font-size: 150px;
+    opacity: 1.0;
+    top:100px;
+    width:60vw;
+    height: max-content;
+    padding: 0 30px;
+}
+
+.home, .container {
+	margin-top: 1%;
+	margin-right: 7%;
+	opacity: 0.8;
+	width: 60vw;
+	height: max-content;
+	border-radius: 200px;
+	background-image: url("https://images.unsplash.com/photo-1428447446564-008f0a600312?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80");
+}
+
+.homephoto {
+	height:325px;
+	width:325px;
+	border-radius: 185px;
+	opacity: 0.8;
+	margin-left: 5%;
+	margin-top: -200px;
+
+}
+
+.quote {
+	text-align: center;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size:30px;
+	color: black;
+	background-color: gray; 
+	border-radius: 20px;
+    text-shadow: 2px 2px 2px white, 2px 2px 0px rgba(0,0,0,0.90);
+	width:60vw;
+	height:max-content;
+	float: right;
+	margin-top: 1%;
+	margin-right: 7%;
+	margin-bottom:3%;
+	opacity: 0.8;
+	line-height: 30px;
+}
+.moveright {
+	text-align: center;
+}
+
+.whitehot {
+	font-size:40px;
+	font-weight: bolder;
+}
+
+.linkedinbutton {
+
+	margin-top:0.5%;
+	margin-left:12.7%;
+	
+}
+
+
+@media only screen and (max-width: 1018px) {
+	.homephoto {
+		display: none;
+	}
+
+	.home, .myname {
+		width:90vw;
+		margin: auto;
+	}
+	.home {
+		margin: 20px;
+	}
+	.quote {
+		width: 90vw;
+		margin: auto;
+		float: none;
+		display: block;
+	}
+	.myname, .container {
+		width: max-content;
+		font-size: 100px;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+.resizebuttons {
+		display:none;
+	}
+
+@media only screen and (max-width: 550px) {
+	.myname, .container {
+		font-size: 60px;
+	}
+
+	.resizebuttons {
+		display:inline-block;
+		opacity: 0.7;
+		margin: auto;
+	}
+
+	.linkedinbutton {
+		text-align:center;
+	}
+}

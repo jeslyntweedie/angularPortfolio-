@@ -50,12 +50,12 @@ nav {
 }
 
 .homephoto {
-	height:325px;
+	height:500px;
 	width:325px;
-	border-radius: 185px;
-	opacity: 0.8;
+	
+	opacity: 0.9;
 	margin-left: 5%;
-	margin-top: -200px;
+	margin-top: -175px;
 
 }
 
@@ -95,7 +95,7 @@ nav {
 }
 
 
-@media only screen and (max-width: 1018px) {
+@media only screen and (max-width: 1295px) {
 	.homephoto {
 		display: none;
 	}
@@ -125,24 +125,46 @@ nav {
 		display:none;
 	}
 
-@media only screen and (max-width: 550px) {
-	.myname, .container {
+	@media only screen and (max-width: 550px) {
+		.myname, .container {
 		font-size: 60px;
-	}
+		}
 
-	.resizebuttons {
+		.resizebuttons {
 		display:inline-block;
 		opacity: 0.7;
 		margin: auto;
-	}
+		}
 
-	.linkedinbutton {
+		.linkedinbutton {
 		text-align:center;
+		}
 	}
-}
 
-	margin-top:0.5%;
-	margin-left:14%;
+ @media only screen and (max-width: 980px) {
+ 	.resizebuttons {
+		display:flex;
+		align-content: space-between;
+		align-items: center;
+		align-content:center;
+		text-align:center;
+		width: max-content;
+		opacity: 0.7;
+		margin: auto;
+		}
+
+	.container{
+		margin-top:30px;
+	}
+ }
+
+ @media only screen and (max-width: 500px) {
+ 	.resizebuttons {
+ 		display:inline-block;
+ 		text-align: left;
+ 	}
+ }
 	
-}
+ 
+        
 
